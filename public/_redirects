@@ -1,0 +1,6 @@
+# Redirect all traffic from Netlify to new Vercel domain
+https://gouranga.eu.org/*  https://gouranga.eu.org/:splat  301!
+http://gouranga.eu.org/*   https://gouranga.eu.org/:splat  301!
+
+# Catch-all redirect for any other paths
+/*  https://gouranga.eu.org/:splat  301!
